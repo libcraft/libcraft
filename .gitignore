@@ -1,5 +1,6 @@
 # http://www.gnu.org/software/automake
 
+Makefile
 Makefile.in
 /ar-lib
 /mdate-sh
@@ -16,6 +17,8 @@ Makefile.in
 /compile
 /config.guess
 /config.h.in
+/config.log
+/config.status
 /config.sub
 /configure
 /configure.scan
@@ -27,7 +30,65 @@ Makefile.in
 # https://www.gnu.org/software/libtool/
 
 /ltmain.sh
+/m4/
+/libtool
+*.lai
+*.dirstamp
+*.Plo
 
 # http://www.gnu.org/software/texinfo
 
 /texinfo.tex
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf

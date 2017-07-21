@@ -1,0 +1,29 @@
+{
+    "C_Cpp.intelliSenseEngine": "Default",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/.deps": true,
+        "**/.dirstamp": true,
+        "**/.libs": true,
+        "**/*.la": true,
+        "**/*.lo": true,
+        "**/*.m4": true,
+        "**/*.o": true,
+        "**/autom4te.cache": true,
+        "**/m4": true,
+        "**/compile": true,
+        "**/config.guess": true,
+        "**/config.log": true,
+        "**/config.status": true,
+        "**/config.sub": true,
+        "**/configure": true,
+        "**/depcomp": true,
+        "**/install-sh": true,
+        "**/libtool": true,
+        "**/ltmain.sh": true,
+        "**/Makefile": true,
+        "**/Makefile.in": true,
+        "**/missing": true
+    }
+}
