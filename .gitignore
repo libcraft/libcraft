@@ -7,6 +7,7 @@ Makefile.in
 /py-compile
 /test-driver
 /ylwrap
+.deps/
 
 # http://www.gnu.org/software/autoconf
 
@@ -35,6 +36,7 @@ Makefile.in
 *.lai
 *.dirstamp
 *.Plo
+.libs/
 
 # http://www.gnu.org/software/texinfo
 

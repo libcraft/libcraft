@@ -25,5 +25,16 @@
         "**/Makefile": true,
         "**/Makefile.in": true,
         "**/missing": true
+    },
+    "files.associations": {
+        "ids.h": "c",
+        "hashmap.c": "cpp",
+        "stdio.h": "c",
+        "stdarg.h": "c",
+        "log.c": "cpp",
+        "server.h": "c",
+        "errno.h": "c",
+        "posix.c": "cpp",
+        "loop.h": "c"
     }
 }
